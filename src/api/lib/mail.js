@@ -8,7 +8,7 @@ const { getUnsubsURL } = require('./utils')
 const {
   AppEcosystem,
   DebugEmailContentEnabled
-} = require('./constant')
+} = require('./constants')
 
 const isProd = process.env.NODE_ENV === 'production'
 
