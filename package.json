@@ -5,7 +5,9 @@
   "repository": "https://github.com/jzrreal/financially-api.git",
   "author": "Jezriel Lukas L <120305629+jzrreal@users.noreply.github.com>",
   "license": "MIT",
-  "private": true,
+  "engines": {
+    "node": "22"
+  },
   "scripts": {
     "lint": "./node_modules/.bin/eslint src/",
     "lint-fix": "./node_modules/.bin/eslint src/ --fix",
